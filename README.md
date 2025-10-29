@@ -1,16 +1,32 @@
 # Call Center Trends Dashboard
 
-This project is part of **PwC’s Power BI Job Simulation** program. It features a Power BI dashboard that displays key performance indicators (KPIs) and metrics from a call center dataset, along with key insights derived from the data.
-
 ## Overview
+This project was part of the **PwC Power BI Job Simulation** on Forage.  
+The goal was to analyze call center data and build a dashboard that highlights customer satisfaction and team performance trends.
 
-The dashboard was designed to provide quick insights into call center performance, highlighting essential metrics for decision-making and strategy development.
+## Objectives
+- Clean and prepare raw call center data for analysis  
+- Create KPIs to measure team efficiency and customer satisfaction  
+- Design an interactive dashboard to communicate insights visually
+
+## Steps Taken
+1. **Data Preparation**  
+   - Used **Power Query** for data cleaning and transformation  
+   - Applied **data validation** to ensure accuracy and consistency  
+
+2. **Data Modeling & Calculations**  
+   - Created **calculated columns** and **measures** using **DAX**  
+   - Built relationships between tables to support interactive visuals  
+
+3. **Visualization**  
+   - Designed charts and visuals to show call volume, customer satisfaction, and agent performance  
+   - Added filters and slicers for deeper insight exploration  
+
+## Tools Used
+- Power BI  
+- Power Query  
+- DAX
 
 ## Key Insights
-
-- **Total calls recorded**: 5,000
-- **Calls answered**: 4,054
-- **Unanswered calls**: 900
-- **Issues resolved**: 3,640
-- **Issues unresolved**: 1,354
-- **Observed trend**: The distribution of topics among resolved and unresolved calls remained roughly consistent.
+- Identified top-performing agents and areas for improvement  
+- Revealed patterns in customer satisfaction over time  
